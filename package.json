@@ -1,14 +1,14 @@
 {
   "name": "mongodb-portable",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "MongoDB driver that does not necessarily require a MongoDB server.",
   "main": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "mongodb",
-    "server"
+    "server",
+    "portable"
   ],
   "author": "Si-Yual Park",
   "license": "MIT",
@@ -16,14 +16,19 @@
     "lib",
     "test"
   ],
+  "homepage": "https://github.com/kdPark0723/mongodb-portable",
+  "bugs": {
+    "url": "https://github.com/kdPark0723/mongodb-portable/issues",
+    "email": "kdpark023@gmail.com"
+  },
+  "dependencies": {
+    "mongodb": "^3.5.4",
+    "mongodb-memory-server": "^6.3.1"
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-import-resolver-node": "^0.3.3",
     "eslint-plugin-import": "^2.20.1"
-  },
-  "dependencies": {
-    "mongodb": "^3.5.4",
-    "mongodb-memory-server": "^6.3.1"
   }
 }
