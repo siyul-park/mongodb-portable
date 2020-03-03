@@ -1,6 +1,6 @@
 {
   "name": "mongodb-portable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MongoDB driver that does not necessarily require a MongoDB server.",
   "main": "lib",
   "scripts": {
