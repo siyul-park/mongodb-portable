@@ -1,0 +1,29 @@
+{
+  "name": "mongodb-portable",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "server"
+  ],
+  "author": "Si-Yual Park",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "test"
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-node": "^0.3.3",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "dependencies": {
+    "mongodb": "^3.5.4",
+    "mongodb-memory-server": "^6.3.1"
+  }
+}
